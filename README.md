@@ -1,5 +1,5 @@
 
-  # comp 6 and 7
+  # comp 6.1
 
   Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 
