@@ -1,0 +1,437 @@
+.time {
+  width: 54px;
+  position: relative;
+  letter-spacing: -0.3px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.cellular-connection-icon,
+.wifi-icon {
+  height: 10.7px;
+  width: 17px;
+  position: relative;
+}
+.wifi-icon {
+  height: 11px;
+  width: 15.3px;
+}
+.border,
+.cap-icon {
+  position: absolute;
+  mix-blend-mode: normal;
+}
+.border {
+  top: calc(50% - 5.65px);
+  right: 2.3px;
+  border-radius: 2.67px;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 22px;
+  height: 11.3px;
+  opacity: 0.35;
+}
+.cap-icon {
+  top: calc(50% - 1.95px);
+  right: 0;
+  width: 1.3px;
+  height: 4px;
+}
+.capacity {
+  position: absolute;
+  top: calc(50% - 3.65px);
+  right: 4.3px;
+  border-radius: 1.33px;
+  background-color: var(--color-gray-300);
+  width: 18px;
+  height: 7.3px;
+  z-index: 1;
+}
+.battery {
+  height: 11.3px;
+  width: 24.3px;
+  position: relative;
+}
+.connection-icons,
+.connectivity {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.connection-icons {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 5px;
+}
+.connectivity {
+  width: 66.6px;
+  flex-direction: column;
+  padding: 7.3px 0 0;
+  box-sizing: border-box;
+}
+.status,
+.system-info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.system-info {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.status {
+  width: 341.6px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-300);
+  font-family: var(--font-poppins);
+}
+.logo-icon1,
+.nav-container {
+  position: relative;
+  max-width: 100%;
+}
+.nav-container {
+  height: 57px;
+  width: 360px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  background-color: var(--color-white);
+  display: none;
+}
+.logo-icon1 {
+  align-self: stretch;
+  height: 28px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.logo-container {
+  width: 53px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.bluestock1 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  line-height: 29px;
+  font-weight: 700;
+  color: inherit;
+  z-index: 1;
+}
+.brand {
+  width: 232px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.grip-vertical-icon1 {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.nav-bar-mobile,
+.navigation1 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.nav-bar-mobile {
+  flex: 1;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  background-color: var(--color-white);
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-sm) var(--padding-mid) var(--padding-sm)
+    var(--padding-4xs);
+  gap: var(--gap-xl);
+}
+.navigation1 {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-xs);
+}
+.span13 {
+  color: var(--color-black);
+}
+.span14 {
+  color: var(--color-gray-100);
+}
+.stock-school1 {
+  color: var(--color-royalblue-200);
+}
+.page-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xl) var(--padding-smi);
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-100);
+}
+.categories2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.market-categories {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xl) var(--padding-2xs);
+  color: var(--color-black);
+}
+.a-variety-of {
+  margin: 0;
+}
+.begin-your-financial-container {
+  position: relative;
+  font-weight: 500;
+}
+.market-categories1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xl) var(--padding-smi) var(--padding-2xl);
+  font-size: var(--font-size-xs);
+  color: var(--color-slategray);
+}
+.salary-icon1 {
+  height: 101px;
+  width: 99px;
+  position: relative;
+  object-fit: cover;
+}
+.category-icons {
+  width: 271px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.basic-finance3 {
+  position: relative;
+  font-weight: 600;
+}
+.category-names {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 65px;
+}
+.learn-to-manage1 {
+  width: 271px;
+  height: 45px;
+  position: relative;
+  font-size: var(--font-size-xs);
+  color: var(--color-slategray);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.vector-icon4 {
+  height: 24px;
+  width: 21px;
+  position: relative;
+  min-height: 24px;
+}
+.modules11 {
+  align-self: stretch;
+  position: relative;
+}
+.module-components,
+.module-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.module-content {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.module-components {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-xs);
+}
+.vector-icon5 {
+  width: 23px;
+  height: 15px;
+  position: relative;
+}
+.view-components {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.views11 {
+  height: 18px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+}
+.module-components-parent,
+.module-views {
+  width: 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.module-components-parent {
+  width: 177px;
+  flex-direction: column;
+  gap: var(--gap-2xs);
+}
+.category-modules {
+  width: 271px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-10xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+}
+.beginners-stock-markets-wrapper,
+.market-categories2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.market-categories2 {
+  padding: 0 var(--padding-11xl) var(--padding-7xl) var(--padding-2xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.beginners-stock-markets-wrapper {
+  padding: 0 var(--padding-3xs);
+}
+.stock-investing-wrapper {
+  padding: 0 var(--padding-38xl);
+}
+.mutual-funds-wrapper,
+.stock-investing-wrapper,
+.technical-analysis-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.technical-analysis-wrapper {
+  padding: 0 var(--padding-21xl);
+}
+.mutual-funds-wrapper {
+  padding: 0 66px;
+}
+.dispute-icon1 {
+  height: 101px;
+  width: 104px;
+  position: relative;
+  object-fit: cover;
+}
+.derivatives2 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 115px;
+}
+.derivatives-wrapper,
+.derivativies {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.derivatives-wrapper {
+  flex-direction: row;
+  padding: 0 78px;
+}
+.derivativies {
+  box-shadow: -1px 5px 15.2px rgba(174, 226, 223, 0.5);
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  border: 2.5px solid var(--color-lightseagreen);
+  flex-direction: column;
+  padding: var(--padding-2xl) var(--padding-base);
+  gap: var(--gap-sm);
+}
+.banking-insurance-wrapper,
+.financial-planning-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.banking-insurance-wrapper {
+  padding: 0 var(--padding-11xl);
+}
+.financial-planning-wrapper {
+  padding: 0 41px;
+}
+.alternative-investments-wrapper,
+.categories1,
+.cryptocurrency-wrapper,
+.market-categories12 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-36xl);
+}
+.alternative-investments-wrapper,
+.categories1,
+.market-categories12 {
+  padding: 0 var(--padding-smi);
+}
+.categories1,
+.market-categories12 {
+  padding: 0 var(--padding-11xl) 0 var(--padding-2xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.categories1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-2xs) 0 var(--padding-27xl);
+  box-sizing: border-box;
+  gap: var(--gap-12xs);
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: var(--font-size-6xl);
+  color: var(--color-gray-200);
+}
